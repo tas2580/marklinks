@@ -1,0 +1,31 @@
+.content a[href*="//www.amazon."]:hover::after{content:"\f270";font-size:1em;color:#F8A51B}
+.content a[href*="//codepen.io"]:hover::after{content:"\f1cb";font-size:1em;}
+.content a[href*="//www.dropbox.com"]:hover::after{content:"\f16b";font-size:1em;color:#007EE4}
+.content a[href*="//www.facebook.com"]:hover::after{content:"\f230";font-size:1em;color:#3B5998}
+.content a[href*="//github.com"]:hover::after{content:"\f113";font-size:1em;}
+.content a[href*="//www.google."]:hover::after{content:"\f1a0";font-size:1em;color:#E33E2B}
+.content a[href*="//jsfiddle.net"]:hover::after{content:"\f1cc";font-size:1em;color:#1C90F3}
+.content a[href*=".linkedin.com"]:hover::after{content:"\f0e1";font-size:1em;color:#0075B2}
+.content a[href*="//www.paypal.com"]:hover::after{content:"\f1ed";font-size:1em;color:#123986}
+.content a[href*=".pinterest.com"]:hover::after{content:"\f231";font-size:1em;color:#BD081C}
+.content a[href*="//stackoverflow.com"]:hover::after{content:"\f16c";font-size:1em;}
+/*.content a[href*="snapchat.com"]:hover::after{content:"\f2ac";font-size:1em;color:#FFFC00}*/
+.content a[href*="//soundcloud.com"]:hover::after{content:"\f1be";font-size:1em;color:#FF6A22}
+.content a[href*="//store.steampowered.com"]:hover::after{content:"\f1b6";font-size:1em;}
+.content a[href*="//twitter.com"]:hover::after{content:"\f099";font-size:1em;color:#3B94D9}
+.content a[href*=".wikipedia.org"]:hover::after{content:"\f266";font-size:1em;}
+.content a[href*=".wordpress.org"]:hover::after{content:"\f19a";font-size:1em;color:#21759A}
+.content a[href*="//www.youtube.com"]:hover::after{content:"\f167";font-size:1em;color:#CC181E}
+
+.content a.extlink::after{
+	font-family:"FontAwesome";
+	content:"\f08e";
+	font-size:.7em;
+	display:inline-block;
+	color:#000;
+	position: relative;
+	bottom:2px;
+	width: 14px;
+	height:12px;
+	text-align: center;
+}
